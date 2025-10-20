@@ -107,3 +107,40 @@ body{
 .sw.revealed{background:#e9f6ff;border:1px solid #cfe7ff}
 .sw.hidden{background:#bcd7f4;border:1px solid #dfe8f9}
 .sw.mine{background:#ffdbdb;border:1px solid #f7c7c7}
+
+.sidebar{
+    width: 200px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 16px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li{
+    margin: 8px 0;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: var(--text);
+    padding: 8px;
+    display: block;
+    border-radius: 4px;
+}
+
+.sidebar a:hover{
+    background: var(--accent);
+    color: #fff;
+}
+
+.rules { display: none; }
